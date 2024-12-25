@@ -1,0 +1,5 @@
+<div class="container1">
+<input type="text" #username placeholder="username" class="input1" (keyup)="signup1(username.value,password.value)">
+<input type="password" #password placeholder="password" class="input1"  (keyup)="signup1(username.value,password.value)">
+<button (click)="signup(username.value,password.value)" class="button1" >Signup</button>
+</div>

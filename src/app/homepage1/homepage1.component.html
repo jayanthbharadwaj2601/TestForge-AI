@@ -1,0 +1,7 @@
+<div class="container1">
+<input type="text" #question placeholder="Enter the exam" class="input1">
+<input type="text" #topic placeholder="Enter the topic" class="input1">
+<input type="number" #count placeholder="enter no. of questions" class="input1">
+<input type="text" #difficulty placeholder="enter difficulty" class="input1">
+<input type="button" value="Begin" (click)="generate_test(question.value,topic.value,count.value,difficulty.value)" class="button1">
+</div>
